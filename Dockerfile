@@ -1,5 +1,5 @@
 # Adepted from https://github.com/nextcloud/docker/blob/master/.examples/dockerfiles/full/apache/Dockerfile
-FROM nextcloud:15.0.0RC3-apache
+FROM nextcloud:15.0.2
 
 RUN mkdir -p /usr/share/man/man1 \
   && apt-get update && apt-get install -y \
